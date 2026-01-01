@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Your Name — Academic Homepage</title>
+
+<style>
+body{
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  line-height: 1.6;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+img.profile{
+  width: 140px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+h1{ margin-bottom: 4px; }
+h2{ margin-top: 30px; }
+
+.nav{
+  margin-top: 10px;
+}
+.nav a{
+  margin-right: 12px;
+  text-decoration: none;
+  color: #0073aa;
+}
+.nav a:hover{ text-decoration: underline; }
+
+.card{
+  background:#fafafa;
+  border:1px solid #ddd;
+  padding:14px;
+  border-radius:10px;
+  margin-top:10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <img class="profile" src="profile.jpg" alt="Profile Photo">
+  <div>
+    <h1>Your Name</h1>
+    <p>Department · University · Country</p>
+    <p>Email: you@university.edu</p>
+
+    <div class="nav">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#cv">CV</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</header>
+
+
+<h2 id="about">About Me</h2>
+<div class="card">
+  <p>
+  I am a researcher in <b>Your Field</b> with interests in
+  <i>area 1, area 2, area 3</i>. I am currently affiliated with
+  <b>Your Institution</b>.
+  </p>
+</div>
+
+
+<h2 id="research">Research Interests</h2>
+<div class="card">
+  <ul>
+    <li>Topic 1</li>
+    <li>Topic 2</li>
+    <li>Topic 3</li>
+  </ul>
+</div>
+
+
+<h2 id="publications">Selected Publications</h2>
+<div class="card">
+  <p><b>Paper Title</b> — Author(s), Journal/Conference, Year</p>
+  <p><b>Paper Title</b> — Author(s), Journal/Conference, Year</p>
+  <p><b>Paper Title</b> — Author(s), Journal/Conference, Year</p>
+</div>
+
+
+<h2 id="teaching">Teaching</h2>
+<div class="card">
+  <ul>
+    <li>Course Name — Institution — Year</li>
+    <li>Course Name — Institution — Year</li>
+  </ul>
+</div>
+
+
+<h2 id="cv">Curriculum Vitae</h2>
+<div class="card">
+  <p>
+    <a href="cv.pdf" target="_blank">Download my CV (PDF)</a>
+  </p>
+</div>
+
+
+<h2 id="contact">Contact</h2>
+<div class="card">
+  <p>
+  Department<br>
+  University<br>
+  City, Country
+  </p>
+</div>
+
+</body>
+</html>
